@@ -16,7 +16,7 @@ variable "repository_name" {
 
 variable "repository_visibility" {
   type        = string
-  default     = "public"
+  default     = "private"
   description = "The visibility of the GitOps repository"
 }
 
